@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}

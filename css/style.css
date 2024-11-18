@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+header {
+  background-color: #3A4449;
+  padding-block: 20px;
+}
+header nav ul {
+  gap: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+header .action-btn {
+  color: white;
+  font-size: 20px;
+}
+header .action-btn .fa-solid {
+  margin-right: 50px;
+}/*# sourceMappingURL=style.css.map */
